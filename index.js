@@ -10,9 +10,9 @@ function checkLucky(){
     if(date && luckyNumber.value){
     compareValues(add , luckyNumber.value)
     }else{
-        showMessage("Enter lucky number 😀")
+        showMessage("Enter lucky number and dob 😀")
         outputBox.style.color="aqua"
-    }
+    } 
 }
 function calculateSum(date){
     date = date.replaceAll("-","")
